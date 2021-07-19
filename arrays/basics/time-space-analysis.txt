@@ -1,0 +1,16 @@
+Arrays:-
+arrays are two types,
+1. Static Arrays
+2. Dynamic Arrays
+
+T: time complexicity
+S: space complexicity
+
+intializing array: O(n) T,S
+traversing: O(n) T , O(1) S   (traversing means looping through array)
+getting an element: O(1) T,S
+setting an element: O(1) T,S (overwriting an array)
+copying array: O(n) T,S
+inseting an element: O(n) T, O(1) S
+by amortizing analysis inseting element in dynamic arrays at end is O(1) T
+in beggining is O(n) T
