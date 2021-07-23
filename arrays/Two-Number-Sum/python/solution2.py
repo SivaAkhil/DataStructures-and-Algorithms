@@ -13,6 +13,8 @@ def twoNumberSum(array, targetSum):
     return []
 
 
+
 ar = [3, 5, -4, 8, 11, 1, -1, 6]
+
 
 print(twoNumberSum(ar, 10))

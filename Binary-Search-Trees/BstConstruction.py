@@ -8,11 +8,11 @@ class BST:
         currentNode = self
 
         while True:
-        if value < currentNode.value:
-            if currentNode.left is None:
-                currentNode = currentNode.right
-            else:
-                currentNode = currentNode.left
+            if value < currentNode.value:
+                if currentNode.left is None:
+                    currentNode = currentNode.right
+                else:
+                    currentNode = currentNode.left
 
     def contains(self, value):
         pass
