@@ -1,0 +1,21 @@
+Depth first search is a recursive algorithm that traverses a tree in a depth-first fashion.i.e. It starts at the root node and explores as far as possible along each branch before backtracking.
+
+sometimes there might have cycles(circular loop connections) in the graph.Then we use a visited field to know if a field is visited or not to avoid infinite loop.
+
+Resources:
+geekforgeeks resource: https://www.youtube.com/watch?v=Y40bRyPQQr0
+algoexpert: graphs/depth first search
+
+example:
+              A
+            / | \
+           B  C  D
+          / \    / \
+          E  F   G  H
+            / \   \
+            I  J   K
+
+output: [A,B,E,F,I,J,C,D,G,K,H]
+
+
+
